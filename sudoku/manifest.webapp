@@ -1,0 +1,17 @@
+{
+	"name":"users sudoku",
+	"description":"Sudoku",
+	"launch_path":"/puzzle.html",
+	"type":"certified",
+	"default_locale":"en-US",
+	"permissions":{"softkey":{}},
+	"theme_color":"#ff9900",
+	"icons":{
+		"56":"/assets/icons/icon-56-56.png",
+		"112":"/assets/icons/icon-112-112.png"},
+	"chrome":{"statusbar":"overlap"},
+	"orientation":"default",
+	"activities":{},
+	"messages":[],
+	"version":"1.0"
+}
