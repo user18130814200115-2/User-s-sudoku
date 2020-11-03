@@ -2,7 +2,7 @@
 	"name":"users sudoku",
 	"description":"Sudoku",
 	"launch_path":"/puzzle.html",
-	"type":"certified",
+	"type":"web",
 	"default_locale":"en-US",
 	"permissions":{"softkey":{}},
 	"theme_color":"#ff9900",
