@@ -1,6 +1,6 @@
 {
 	"name":"users sudoku",
-	"description":"Sudoku",
+	"description":"One-screen Sudoku player with 400 sudokus",
 	"launch_path":"/puzzle.html",
 	"type":"web",
 	"default_locale":"en-US",
@@ -8,10 +8,24 @@
 	"theme_color":"#ff9900",
 	"icons":{
 		"56":"/assets/icons/icon-56-56.png",
-		"112":"/assets/icons/icon-112-112.png"},
+		"112":"/assets/icons/icon-112-122.png"},
 	"chrome":{"statusbar":"overlap"},
 	"orientation":"default",
 	"activities":{},
 	"messages":[],
+
+	"developer": {
+    		"name": "User 18130814200115",
+    		"url": "https://github.com/user18130814200115-2/User-s-sudoku"
+  	},
+
+	"locales": {
+		"en-US": {
+			"name": "User's sudoku",
+			"subtitle": "Over 400 sudokus, both hard and easy",
+			"description": "One-screen Sudoku player with 400 sudokus"
+    		}
+  	},
+	"default_locale": "en-US",
 	"version":"1.0"
 }
