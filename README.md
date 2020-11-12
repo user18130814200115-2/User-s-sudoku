@@ -7,7 +7,7 @@ The recommended method is using [the bhackers store](https://store.bananahackers
 ### Omni SD
 The app is distributed in OmniSD/Gerda package format. Just download the latest release and install with OmniSD
 
-## Web IDE
+### Web IDE
 - Download the latest release
 - unzip userssudoku.zip
 - unzip application.zip
