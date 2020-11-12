@@ -16,4 +16,5 @@ The app is distributed in OmniSD/Gerda package format. Just download the latest 
 - Click "Install and Run" button (the triangle).
 
 # Donation
-If you use my apps, like them and feel like donating, you can give my your BAT (Basic Attention Tokens) on brave :)
+https://streamlabs.com/justarandomnekochan/tip  
+Everything is apreiciated
