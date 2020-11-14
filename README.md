@@ -1,5 +1,5 @@
 # User-s-sudoku
-A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios
+A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios. A web-version for PC browsers is also avaiable at [my website](https://twester.tk/sudoku.html)
 
 ## Install
 The recommended method is using [the bhackers store](https://store.bananahackers.net/). However, binaries are also distributed here.
