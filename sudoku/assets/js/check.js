@@ -1,15 +1,13 @@
-
-
 function Check() {
 	var userInput = '';
 	for (let i = 0; i < 80; i++) {
 		var CurrentCell = document.getElementById("cell-"+i);
-		CurrentCell.classList.remove("wrong");
+		CurrentCell.classList.remove("wrong"); //clear all wrong cells
 		if (CurrentCell.value == '') {
-			userInput += 0
+			userInput += 0 //a zero is used to prgramically check for empty cells
 		}
 		else {
-		  userInput += CurrentCell.value;	
+		  userInput += CurrentCell.value; //save all entered cell values, we use this later
 		}
 	}
 	for (let i = 0; i < 8; i++) {
@@ -18,17 +16,18 @@ function Check() {
 		
 		var encounteredIndices = {};
 		for(var k = 0; k < 9; k++) {
-			if (row[k] != 0 ) {
-		  		if (encounteredIndices[row[k]]){ 
+			if (row[k] != 0 ) { //loop over rows
+		  		if (encounteredIndices[row[k]]){ //see if we encountered the current value earlier in this row
 		  			document.getElementById("cell-"+(k+9*i)).classList.add("wrong");
 		  			document.getElementById("cell-"+(row.indexOf(row[k])+9*i)).classList.add("wrong");
+					//if so, give both the class "wrong"
 		  		}
-		  		else{ encounteredIndices[row[k]] = 1; }
+		  		else{ encounteredIndices[row[k]] = 1; } //otherwise list the value as encountered
 			}
 		}
 		var encounteredIndices = {};
 		for(var k = 0; k < 9; k++) {
-			if (col[k] != 0 ) {
+			if (col[k] != 0 ) { //same as rows above (dirty code, I know)
 		  		if (encounteredIndices[col[k]]){ 
 		  			document.getElementById("cell-"+(k*9+i)).classList.add("wrong");
 		  			document.getElementById("cell-"+(col.indexOf(col[k])*9+i)).classList.add("wrong");
