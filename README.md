@@ -1,5 +1,5 @@
 # User-s-sudoku
-A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios.
+A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios.  
 ![screenshot](screenshot.png)
 
 ## Install
