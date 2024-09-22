@@ -1,5 +1,5 @@
 # User-s-sudoku
-A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios. A web-version for PC browsers is also avaiable at [my website](https://wester.digital/sudoku.html)  
+A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios.
 ![screenshot](screenshot.png)
 
 ## Install
@@ -15,9 +15,3 @@ The app is distributed in OmniSD/Gerda package format. Just download the latest 
 - Open WebIDE
 - Click "Open Packaged App" and select the application folder
 - Click "Install and Run" button (the triangle).
-
-# Donation
-Any and all donations are very much appreciated, but no one should ever feel obligated to donate.
-Donations go trough [my website](https://wester.digital/ssg/donations.html)
-
-Everything is apreiciated
