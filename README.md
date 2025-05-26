@@ -1,3 +1,9 @@
+# Migrated
+
+This repository has been migrated to
+[codeberg](https://codeberg.org/User18130814200115/userssudoku). The GitHub version
+is now archived and will no-longer receive updates.
+
 # User-s-sudoku
 A simple one-screen sudoku player with intergrated checking and 400 sudoku's from gnome-sudokus for kaios.  
 ![screenshot](screenshot.png)
